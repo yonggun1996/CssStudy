@@ -18,6 +18,10 @@
     float: right;
 }
 
-.box3 {
+/* .box3 {
     clear: left;
+} */
+
+.clearfix {
+    clear: both
 }
