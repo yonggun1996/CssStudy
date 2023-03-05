@@ -1,0 +1,22 @@
+/* .box1 {
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+    border: 2px solid red; /* 테두리를 설정 */
+    /*padding: 50px; /* 상하좌우 동일하게 50px */
+    /*margin: 50px;
+} */
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+/* 이 구문으로 box1이 더 크게 보인다 */
+/* 박스사이징 문제 : div태그에선 크기를 동일하게 했으나 padding으로 인해 사이즈가 더 커지는 경우 */
+/* content-box가 default이기 때문 */
+.box1 {
+    padding: 50px;
+    border: 1px solid blue;
+}
