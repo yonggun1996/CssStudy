@@ -9,3 +9,8 @@
 .link1:visited {
     color: red;
 }
+
+/* active : button 클릭을 감지하는 가상클래스
+ * focus : input박스 클릭을 감지하는 가상클래스
+ * visited : a태그를 통해 링크 방문을 감지하는 가상클래스
+ */
